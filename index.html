@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 Exchange</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web\fontawesome-free-6.1.1-web\css\all.css">
+</head>
+<body>
+    <section class="showcase active">
+         <header>
+             <h2 class="logo"> 11 TECH</h2>
+             <div class="toggle active">
+                 <i class="fa-solid fa-bars"></i>
+             </div>
+         </header>
+        <video src="/stock-footage-bitcoin-blockchain-crypto-currency-digital-encryption-digital-money-exchange-technology-global.webm" autoplay muted loop></video>
+         <div class="overlay"></div>
+         <div class="text">
+             <h2>The Best Exchange </h2>
+             <h3>in the world</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus totam aliquam alias nihil reprehenderit in aspernatur esse provident fuga ut!</p>
+             <a href="#">start trade</a>
+
+         </div>
+         <ul class="social">
+             <li><a href="#"><img src="/whatsapp.png" alt=""></a></li>
+             <li><a href="#"><img src="/twitter.png" alt=""></a></li>
+             <li><a href="/contact/index1.html"><img src="/gmail-logo.png" alt=""></a></li>
+
+             </ul>
+            <h3 class="foot">✔Abor Vctor</h3>
+            
+          
+     </section>
+     <div class="menu">
+         <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Rate</a></li>
+             <li><a href="#">Trade</a></li>
+             <li><a href="#">About</a></li>
+         </ul>
+     </div>
+     <div class="rate">
+         <h2 class="price">780/$</h2>
+
+     </div> 
+     
+     </html>
+     
+     <script>
+         const menutoggle = document.querySelector('.toggle')
+         const showcase = document.querySelector('.showcase')
+         const icon = document.querySelector('.toggle i')
+
+         menutoggle.addEventListener('click',()=>{
+             menutoggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+
+            if(menutoggle.classList.contains("active")){
+                icon.classList.remove("fa-bars")
+                icon.classList.add("fa-xmark")
+            }else{
+                icon.classList.remove("fa-xmark")
+                icon.classList.add("fa-bars")
+            }
+         })
+     </script>
+</body>
+</html>
